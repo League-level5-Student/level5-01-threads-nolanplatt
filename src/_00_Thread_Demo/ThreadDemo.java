@@ -6,7 +6,6 @@ import org.jointheleague.graphical.robot.Robot;
 public class ThreadDemo {
 	public static void main(String[] args) {
 		
-		//getting weird error 
 			Robot timmy = new Robot(400, 700);
 			Robot tammy = new Robot(800, 700);
 			Robot sammy = new Robot(1200, 700);
