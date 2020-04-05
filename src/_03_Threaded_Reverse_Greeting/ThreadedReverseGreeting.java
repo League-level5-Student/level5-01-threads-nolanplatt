@@ -37,5 +37,20 @@ public class ThreadedReverseGreeting {
 		
 		
 		//6. Start and join the thread. Did you get the required output?
+		
+		
+		Thread t = new Thread(new ThreadedGreeter(1));
+		
+		t.start();
+		
+		try {
+			t.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		
 	}
+	
+	
 }
